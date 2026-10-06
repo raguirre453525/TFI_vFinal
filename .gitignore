@@ -1,0 +1,27 @@
+# Build outputs, dependencies and editor state
+**/.git/
+**/.vs/
+**/.vscode/
+**/[Bb]in/
+**/[Oo]bj/
+**/node_modules/
+**/dist/
+*.user
+*.suo
+
+# Local configuration and credentials
+**/.env
+**/.env.*
+!Dsw2025_Unidad5-master/.env.development
+**/appsettings.Local.json
+**/appsettings.*.local.json
+**/secrets.json
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Local instructions and academic artifacts, not application source
+/AGENTS.md
+/*.pdf
+/*.docx
